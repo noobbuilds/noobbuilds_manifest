@@ -7,20 +7,20 @@ So use at your own risk!!
 ## Latest AOSP builds
 
 ```
-Android 7.1.1_r13
+Android 7.1.1_r11
 ```
 
 ## Create noobbuilds working directory and pull in build scripts.
 
 ```
-git clone https://github.com/noobbuilds/build-scripts.git -b 711 noobbuilds \
+git clone https://github.com/noobbuilds/build-scripts.git -b r11 noobbuilds \
 && cd ~/noobbuilds && chmod a+x N6PCLEAN N6PDIRTY N9CLEAN N9DIRTY
 ```
 
 ## Get noobbuilds source
 
 ```
-repo init -u https://github.com/noobbuilds/noobbuilds_manifest -b 711
+repo init -u https://github.com/noobbuilds/noobbuilds_manifest -b r11
 repo sync --force-sync
 ```
 
