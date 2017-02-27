@@ -20,7 +20,7 @@ git clone https://github.com/noobbuilds/build-scripts.git -b noob noobbuilds \
 ## Get noobbuilds source
 
 ```
-repo init -u https://github.com/noobbuilds/noobbuilds_manifest -b r14
+repo init -u https://github.com/noobbuilds/noobbuilds_manifest -b n14
 repo sync --force-sync
 ```
 
