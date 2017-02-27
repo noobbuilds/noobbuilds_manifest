@@ -32,7 +32,7 @@
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="fwhem" revision="n14" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="fwhem" revision="n14" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="fwhem" revision="n14" />
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n-rootless" />
   <project path="packages/apps/NoobSettings" name="platform_packages_apps_NoobSettings" remote="fwhem" revision="n14" />  
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="n14" />         
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="fwhem" revision="n14" />
