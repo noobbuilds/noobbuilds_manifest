@@ -9,47 +9,47 @@
   <remote  name="fwhem"
            fetch="https://github.com/noobbuilds/" 
            sync-j="6" />          
-  <default revision="refs/tags/android-7.1.1_r11"
+  <default revision="refs/tags/android-7.1.1_r14"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
            
 
   <!-- fwhem repos -->
-  <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="r11" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="fwhem" revision="r11" />  
-  <project path="build" name="platform_build" groups="pdk,tradefed" remote="fwhem" revision="r11" >
+  <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="n14" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="fwhem" revision="n14" />  
+  <project path="build" name="platform_build" groups="pdk,tradefed" remote="fwhem" revision="n14" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="fwhem" revision="r11" /> 
-  <project path="device/htc/flounder" name="device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="fwhem" revision="r11" />
-  <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="r11" />
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="r11" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="fwhem" revision="r11" />  
-  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="r11" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="fwhem" revision="r11" />  
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="fwhem" revision="r11" />
-  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="fwhem" revision="r11" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="fwhem" revision="r11" />
-  <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="fwhem" revision="r11" />
+  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="fwhem" revision="n14" /> 
+  <project path="device/htc/flounder" name="device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="fwhem" revision="n14" />
+  <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="n14" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="n14" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="fwhem" revision="n14" />  
+  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="n14" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" groups="pdk-fs" remote="fwhem" revision="n14" />  
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="fwhem" revision="n14" />
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="fwhem" revision="n14" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="fwhem" revision="n14" />
+  <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="fwhem" revision="n14" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
-  <project path="packages/apps/NoobSettings" name="platform_packages_apps_NoobSettings" remote="fwhem" revision="r11" />  
-  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="r11" />         
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="fwhem" revision="r11" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="r11" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="r11" />      
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="fwhem" revision="r11" />
-  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="fwhem" revision="r11" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="fwhem" revision="r11" />
-  <project path="vendor/noobbuilds" name="platform_vendor_noobbuilds" remote="fwhem" revision="r11" />               
+  <project path="packages/apps/NoobSettings" name="platform_packages_apps_NoobSettings" remote="fwhem" revision="n14" />  
+  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="n14" />         
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="fwhem" revision="n14" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="n14" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="n14" />      
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="fwhem" revision="n14" />
+  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="fwhem" revision="n14" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="fwhem" revision="n14" />
+  <project path="vendor/noobbuilds" name="platform_vendor_noobbuilds" remote="fwhem" revision="n14" />               
            
   <!-- fwhem kernels -->
-  <project path="kernel/huawei/angler" name="kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="nmr1" />             
-  <project path="kernel/htc/flounder" name="kernel_htc_flounder" groups="device,flounder,broadcom_pdk" remote="fwhem" revision="nmr1" />
+  <project path="kernel/huawei/angler" name="kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="n14" />             
+  <project path="kernel/htc/flounder" name="kernel_htc_flounder" groups="device,flounder,broadcom_pdk" remote="fwhem" revision="n14" />
            
   <!-- fwhem proprietary vendor blobs -->           
-  <project path="vendor/huawei" name="platform_vendor_huawei" remote="fwhem" revision="r11" />
-  <project path="vendor/htc" name="platform_vendor_htc" remote="fwhem" revision="r11" />
+  <project path="vendor/huawei" name="platform_vendor_huawei" remote="fwhem" revision="n14" />
+  <project path="vendor/htc" name="platform_vendor_htc" remote="fwhem" revision="n14" />
   
   <!-- aosp repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
