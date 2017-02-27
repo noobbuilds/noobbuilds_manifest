@@ -14,7 +14,7 @@ Android 7.1.1_r14
 
 ```
 git clone https://github.com/noobbuilds/build-scripts.git -b noob noobbuilds \
-&& cd ~/noobbuilds && chmod a+x N6PCLEAN N6PDIRTY N9CLEAN N9DIRTY
+&& cd ~/noobbuilds && chmod a+x N6CLEAN N6DIRTY N6PCLEAN N6PDIRTY N9CLEAN N9DIRTY
 ```
 
 ## Get noobbuilds source
