@@ -33,7 +33,7 @@
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="fwhem" revision="2r4" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="fwhem" revision="2r4" />
   <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" groups="pdk-fs" remote="fwhem" revision="2r4" />
-  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/NoobSettings" name="platform_packages_apps_NoobSettings" remote="fwhem" revision="2r4" />
   <project path="packages/apps/OmniStyle" name="platform_packages_apps_OmniStyle" remote="fwhem" revision="2r4" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="fwhem" revision="2r4" />  
