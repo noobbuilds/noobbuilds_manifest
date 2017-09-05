@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch="https://github.com" />
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+  <remote  name="fwhem"
+           fetch="https://github.com/noobbuilds/" 
+           sync-j="6" /> 
   <default revision="refs/tags/android-8.0.0_r4"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
+           
 
+  <!-- fwhem repos -->
+  <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="o8r4" />
+
+           
+  <!-- fwhem kernels -->           
+
+           
+  <!-- fwhem proprietary vendor blobs -->           
+
+  
+  <!-- aosp repos -->
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
