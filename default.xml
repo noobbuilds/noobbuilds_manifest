@@ -25,8 +25,8 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="fwhem" revision="o8r4" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="fwhem" revision="o8r4" >
+  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="fwhem" revision="o8r4" />
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="fwhem" revision="o8r4" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>  
