@@ -16,7 +16,6 @@
 
 
   <!-- fwhem repos -->
-  <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="o8r4" />
   <project path="build/make" name="platform_build" groups="pdk" remote="fwhem" revision="o8r4" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -26,6 +25,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="o8r4" />
 
 
   <!-- fwhem kernels -->
@@ -35,7 +35,6 @@
 
 
   <!-- aosp repos -->
-
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
