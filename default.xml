@@ -38,6 +38,7 @@
 
 
   <!-- fwhem proprietary vendor blobs -->
+  <project path="vendor/huawei" name="platform_vendor_huawei" remote="fwhem" revision="o8r4" />
 
 
   <!-- aosp repos -->
