@@ -31,6 +31,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/huawei/angler" name="device_huawei_angler" groups="device,angler,broadcom_pdk,pdk" remote="fwhem" revision="o8r4" />
+  <project path="device/htc/flounder" name="device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="fwhem" revision="o8r4" />
   <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="o8r4" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="o8r4" />
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="o8r4" />
@@ -40,9 +41,11 @@
 
   <!-- fwhem kernels -->
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="o8r4" />
+  <project path="kernel/htc/flounder" name="kernel_htc_flounder" groups="device,flounder,broadcom_pdk" remote="fwhem" revision="o8r4" />
 
   <!-- fwhem proprietary vendor blobs -->
   <project path="vendor/huawei" name="platform_vendor_huawei" remote="fwhem" revision="o8r4" />
+  <project path="vendor/htc" name="platform_vendor_htc" remote="fwhem" revision="o8r4" />
 
 
   <!-- aosp repos -->
