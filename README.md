@@ -7,7 +7,7 @@ So use at your own risk!!
 ## Latest AOSP builds
 
 ```
-Android 8.0.0_r4
+Android 8.0.0_r11
 ```
 
 ## Create noobbuilds working directory and pull in build scripts.
