@@ -16,6 +16,7 @@
 
 
   <!-- fwhem repos -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="fwhem" revision="o8r4" >
   <project path="build/make" name="platform_build" groups="pdk" remote="fwhem" revision="o8r4" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -54,7 +55,6 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
