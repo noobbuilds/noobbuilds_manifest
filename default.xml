@@ -34,6 +34,7 @@
   <project path="device/htc/flounder" name="device_htc_flounder" groups="device,flounder,broadcom_pdk" remote="fwhem" revision="o8r4" />
   <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="o8r4" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="o8r4" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="fwhem" revision="o8r4" />
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="o8r4" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="fwhem" revision="o8r4" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="fwhem" revision="o8r4" />
@@ -345,7 +346,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
