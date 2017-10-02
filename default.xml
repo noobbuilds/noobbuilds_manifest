@@ -43,7 +43,7 @@
 
 
   <!-- fwhem kernels -->
-  <project path="kernel/huawei/angler" name="kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="o8r4" />
+  <project path="kernel/huawei/angler" name="kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="fwhem" revision="oup" />
   <project path="kernel/htc/flounder" name="kernel_htc_flounder" groups="device,flounder,broadcom_pdk" remote="fwhem" revision="o8r4" />
 
   <!-- fwhem proprietary vendor blobs -->
