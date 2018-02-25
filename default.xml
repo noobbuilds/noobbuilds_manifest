@@ -20,6 +20,15 @@
 
   <!-- fwhem repos -->
   <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="o81" />
+  <project path="build/make" name="platform_build" groups="pdk" remote="fwhem" revision="o81" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen" remote="trees" revision="o81" />
   <project path="device/google/wahoo" name="device_google_wahoo" groups="device,wahoo" remote="trees" revision="o81" />
 
@@ -33,15 +42,6 @@
 
 
   <!-- aosp repos -->
-  <project path="build/make" name="platform/build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
