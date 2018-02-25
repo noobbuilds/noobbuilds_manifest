@@ -21,6 +21,7 @@
   <!-- fwhem repos -->
   <project path="manifest" name="noobbuilds_manifest" remote="fwhem" revision="o81" />
   <project path="device/google/taimen" name="device/google/taimen" groups="device,taimen" remote="trees" revision="o81" />
+  <project path="device/google/wahoo" name="device/google/wahoo" groups="device,wahoo" remote="trees" revision="o81" />
 
   <!-- fwhem kernels -->
 
@@ -85,7 +86,6 @@
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
   <project path="device/google/muskie" name="device/google/muskie" groups="device,muskie" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
-  <project path="device/google/wahoo" name="device/google/wahoo" groups="device,wahoo" />
   <project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,wahoo" clone-depth="1" />
   <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk,pdk" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk,pdk" clone-depth="1" />
