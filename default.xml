@@ -31,6 +31,7 @@
   </project>
   <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen" remote="trees" revision="o81" />
   <project path="device/google/wahoo" name="device_google_wahoo" groups="device,wahoo" remote="trees" revision="o81" />
+  <project path="vendor/noobbuilds" name="platform_vendor_noobbuilds" remote="fwhem" revision="o81" />
 
   <!-- fwhem kernels -->
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" groups="device,wahoo" remote="trees" revision="o81" />
