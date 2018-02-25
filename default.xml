@@ -32,6 +32,7 @@
   <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen" remote="trees" revision="o81" />
   <project path="device/google/wahoo" name="device_google_wahoo" groups="device,wahoo" remote="trees" revision="o81" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="o81" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="fwhem" revision="o81" />
   <project path="vendor/noobbuilds" name="platform_vendor_noobbuilds" remote="fwhem" revision="o81" />
 
   <!-- fwhem kernels -->
@@ -492,7 +493,6 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
