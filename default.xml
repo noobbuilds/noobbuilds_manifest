@@ -48,7 +48,7 @@
 
   <!-- fwhem proprietary vendor blobs -->
   <project path="vendor/google" name="platform_vendor_google" remote="trees" revision="o81" />
-  <project path="vendor/pixelgapps" name="platform_vendor_pixelgapps" remote="trees" revision="o81" />
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="trees" revision="o81" />
 
 
   <!-- aosp repos -->
