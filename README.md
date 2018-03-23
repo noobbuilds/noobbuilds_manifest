@@ -18,6 +18,22 @@ cd ~/noobbuilds
 repo init -u https://github.com/noobbuilds/noobbuilds_manifest -b o81
 repo sync
 ```
+## Build noobbuilds taimen
+
+```
+source build/envsetup.sh
+make clobber
+breakfast taimen
+export USE_CCACHE=1      not req'd if set in bashrc
+mka bacon
+
+or
+
+source build/envsetup.sh
+make clobber
+export USE_CCACHE=1      not req'd if set in bashrc
+brunch taimen
+```
 
 
 
