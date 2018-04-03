@@ -12,7 +12,7 @@
   <remote  name="trees"
            fetch="https://github.com/noobtrees/" 
            sync-j="6" /> 
-  <default revision="refs/tags/android-8.1.0_r15"
+  <default revision="refs/tags/android-8.1.0_r20"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
