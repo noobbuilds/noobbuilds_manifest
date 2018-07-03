@@ -7,7 +7,7 @@ So use at your own risk!!
 ## Latest AOSP builds
 
 ```
-Android 8.1.0_r30
+Android 8.1.0_r36
 ```
 
 ## Get noobbuilds source
