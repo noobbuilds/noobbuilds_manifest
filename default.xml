@@ -33,6 +33,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/google/taimen" name="device_google_taimen" groups="device,taimen,pdk" remote="trees" revision="pi" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="fwhem" revision="pi" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk" remote="fwhem" revision="pi" />
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" groups="pdk" remote="fwhem" revision="pi" />
@@ -87,7 +88,6 @@
   <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin,pdk" />
   <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin,pdk" clone-depth="1" />
   <project path="device/google/muskie" name="device/google/muskie" groups="device,muskie,pdk" />
-  <project path="device/google/taimen" name="device/google/taimen" groups="device,taimen,pdk" />
   <project path="device/google/vrservices" name="device/google/vrservices" groups="pdk" clone-depth="1" />
   <project path="device/google/wahoo" name="device/google/wahoo" groups="device,wahoo,pdk" />
   <project path="device/google/wahoo-kernel" name="device/google/wahoo-kernel" groups="device,wahoo,pdk" clone-depth="1" />
