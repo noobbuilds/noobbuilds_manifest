@@ -36,6 +36,8 @@
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="fwhem" revision="pi" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk" remote="fwhem" revision="pi" />
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" groups="pdk" remote="fwhem" revision="pi" />
+  <project path="vendor/noobbuilds" name="platform_vendor_noobbuilds" remote="fwhem" revision="pi" />
+  
 
 
   <!-- fwhem kernels -->
