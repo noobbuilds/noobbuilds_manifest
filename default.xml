@@ -34,6 +34,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="fwhem" revision="pi" />
+  <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk" remote="fwhem" revision="pi" />
 
 
   <!-- fwhem kernels -->
