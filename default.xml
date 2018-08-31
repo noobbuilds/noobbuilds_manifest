@@ -46,6 +46,7 @@
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" groups="device,wahoo" remote="trees" revision="pi" />
 
   <!-- fwhem proprietary vendor blobs -->
+  <project path="vendor/google" name="platform_vendor_google" remote="trees" revision="pi" />
 
 
   <!-- aosp repos -->
