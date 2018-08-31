@@ -7,11 +7,14 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
   <remote  name="fwhem"
-           fetch="https://github.com/noobbuilds/" 
+           fetch="https://github.com/noobbuilds/"
            sync-j="6" />
   <remote  name="trees"
-           fetch="https://github.com/noobtrees/" 
-           sync-j="6" /> 
+           fetch="https://github.com/noobtrees/"
+           sync-j="6" />
+  <remote  name="gapps"
+           fetch="https://bitbucket.org/noobtc/"
+           sync-j="6" />           
   <default revision="refs/tags/android-9.0.0_r1"
            remote="aosp"
            sync-c="true"
@@ -47,6 +50,7 @@
 
   <!-- fwhem proprietary vendor blobs -->
   <project path="vendor/google" name="platform_vendor_google" remote="trees" revision="pi" />
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="gapps" revision="p" />
 
 
   <!-- aosp repos -->
