@@ -8,7 +8,7 @@ So use at your own risk!!
 ## Latest AOSP builds
 
 ```
-Android 9.0.0_r1
+Android 9.0.0_r6
 ```
 
 ## Get noobbuilds source
