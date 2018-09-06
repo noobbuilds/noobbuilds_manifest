@@ -13,7 +13,7 @@
            fetch="https://github.com/noobtrees/"
            sync-j="6" />
   <remote  name="gapps"
-           fetch="https://bitbucket.org/noobtc/"
+           fetch="https://gitlab.com/noobtc/"
            sync-j="6" />           
   <default revision="refs/tags/android-9.0.0_r6"
            remote="aosp"
@@ -50,7 +50,7 @@
 
   <!-- fwhem proprietary vendor blobs -->
   <project path="vendor/google" name="platform_vendor_google" remote="trees" revision="pi" />
-  <project path="vendor/gapps" name="platform_vendor_gapps" remote="gapps" revision="p" />
+  <project path="vendor/gapps" name="platform_vendor_gapps" remote="gapps" revision="pi" />
 
 
   <!-- aosp repos -->
