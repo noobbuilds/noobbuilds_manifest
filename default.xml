@@ -40,6 +40,7 @@
   <project path="device/google/wahoo" name="device_google_wahoo" groups="device,wahoo,pdk" remote="trees" revision="pi" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="fwhem" revision="pi" />
   <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" groups="pdk" remote="fwhem" revision="pi" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="fwhem" revision="pi" />
   <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" groups="pdk" remote="fwhem" revision="pi" />
   <project path="vendor/noobbuilds" name="platform_vendor_noobbuilds" remote="fwhem" revision="pi" />
   
@@ -471,7 +472,6 @@
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
