@@ -15,7 +15,7 @@
   <remote  name="gapps"
            fetch="https://gitlab.com/noobtc/"
            sync-j="6" />           
-  <default revision="refs/tags/android-9.0.0_r10"
+  <default revision="refs/tags/android-9.0.0_r16"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
